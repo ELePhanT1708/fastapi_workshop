@@ -26,7 +26,9 @@ class Operation(OperationBase):
 
 
 class OperationCreate(OperationBase):
-    pass
+
+    class Config:
+        orm_mode = True
 
 
 class OperationUpdate(OperationBase):
