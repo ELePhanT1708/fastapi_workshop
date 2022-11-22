@@ -8,7 +8,8 @@ from ..services.operations import OperationsService
 from ..tables import User
 
 router = APIRouter(
-    prefix='/operations'
+    prefix='/operations',
+    tags=['operations']
 )
 
 

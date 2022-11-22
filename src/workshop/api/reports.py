@@ -9,7 +9,8 @@ from workshop.services.reports import ReportService
 from workshop.tables import Operation, User
 
 router = APIRouter(
-    prefix='/reports'
+    prefix='/reports',
+    tags=['reports']
 )
 
 
